@@ -14,9 +14,9 @@ body{
 
 header{
     text-align: center;
-    color:white;
+    color:red;
 
-    background-image: url(Vn/2.png);
+    background-image: url(img/Vn/1.jpg);
     background-repeat: round;
 
     border:2px gold solid;
@@ -33,12 +33,11 @@ main{
 
 ol{
     display:inline-block;
-    color:gold;
+    color:darkred;
 }
-ol li{
-    float:left;
-    width:100%;
-    height:100%;
+li{
+    font-size: 30px;
+    clear:both;
 }
 p{
     color:black;
