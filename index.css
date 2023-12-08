@@ -5,7 +5,7 @@
     float:right;
 }
 body{
-    background-image: url(img/Vn/1.png);
+    background-image: url(Vn/1.png);
     background-repeat: round;
     background-attachment: fixed;
 
@@ -16,7 +16,7 @@ header{
     text-align: center;
     color:white;
 
-    background-image: url(img/Vn/2.png);
+    background-image: url(Vn/2.png);
     background-repeat: round;
 
     border:2px gold solid;
