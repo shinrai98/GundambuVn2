@@ -4,25 +4,35 @@
 .fl2{
     float:right;
 }
+.center{
+    float:both;
+    position:relative;
+    left:140px;
+    width:70%;
+}
 body{
-    background-image: url(Vn/1.png);
+    font-size:25px;
+    background-image: url(img/Vn/1.png);
     background-repeat: round;
     background-attachment: fixed;
 
-    border: 1px white solid;
+    border: 2px white solid;
 }
 
 header{
     text-align: center;
     color:red;
 
-    background-image: url(img/Vn/1.jpg);
+    background-color:ghostwhite;
     background-repeat: round;
 
     border:2px gold solid;
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
+}
+header h1{
+    display:inline;
 }
 main{
     background-color:white;
@@ -36,7 +46,7 @@ ol{
     color:darkred;
 }
 li{
-    font-size: 30px;
+    font-size: 35px;
     clear:both;
 }
 p{
@@ -44,8 +54,34 @@ p{
 }
 
 img{
+    display:inline-block;
     border:2px black solid;
     box-shadow: 0px 0px 2px 2px gray;
     height:50%;
     width:50%;
+}
+
+nav{
+    background-color: black;
+
+    text-align: center;
+    color:white;
+
+    position: fixed;
+    left:500px;
+    bottom:0px;
+    z-index: 2;
+
+    border:2px crimson solid;
+    padding: 10px;
+    margin:10px;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    transition: box-shadow, color, 1s;
+}
+nav a:hover{
+    color:red;
+    box-shadow: inset 120px 0 white;
 }
