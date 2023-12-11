@@ -74,6 +74,7 @@ nav{
     border:2px crimson solid;
     padding: 10px;
     margin:10px;
+    border-radius: 25px;
 }
 nav a{
     color:white;
